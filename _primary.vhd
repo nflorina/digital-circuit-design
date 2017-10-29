@@ -1,11 +1,8 @@
 library verilog;
 use verilog.vl_types.all;
-entity controller is
+entity count is
     port(
         clk_i           : in     vl_logic;
-        start_stop_button_i: in     vl_logic;
-        reset_button_i  : in     vl_logic;
-        en_o            : out    vl_logic;
-        reset_o         : out    vl_logic
+        count_o         : out    vl_logic_vector(31 downto 0)
     );
-end controller;
+end count;
