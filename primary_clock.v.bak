@@ -1,0 +1,8 @@
+module primary_clock(
+
+
+);
+
+
+
+endmodule

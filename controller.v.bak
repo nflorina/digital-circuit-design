@@ -1,0 +1,9 @@
+module controller(
+	input clk_i,
+	input start_stop_button_i,
+	output en_o
+
+);
+
+
+endmodule
