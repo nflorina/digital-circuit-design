@@ -1,0 +1,480 @@
+do compilare.do
+# ** Warning: (vlib-34) Library already exists at "./".
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling interface int_in
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling interface int_out
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package pkg_compilare
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package test_sv_unit
+# -- Importing package pkg_compilare
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	top_tb
+# vsim -novopt lab_work.top_tb 
+# Loading sv_std.std
+# Loading lab_work.top_tb
+# Loading lab_work.int_out
+# Loading lab_work.int_in
+# Loading lab_work.top
+# Loading lab_work.controller
+# Loading lab_work.primary_clock
+# Loading lab_work.smart_clock
+# Loading lab_work.decoder
+# Loading lab_work.pkg_compilare
+# Loading lab_work.test_sv_unit
+# Loading lab_work.test
+# Monitor intrare65542
+# Monitor iesire65543
+# Monitor intrare131078
+# Monitor intrare196614
+# Monitor iesire131079
+# Monitor intrare262150
+# Monitor intrare327686
+# Monitor iesire196615
+# Monitor intrare393222
+# Monitor intrare458758
+# Monitor iesire262151
+# Monitor intrare524294
+# Monitor intrare589830
+# Monitor intrare655366
+# Monitor intrare720902
+# Monitor intrare786438
+# Monitor iesire327687
+# Monitor intrare851974
+# Monitor intrare917510
+# Monitor iesire393223
+# Monitor intrare983046
+# Monitor intrare1048582
+# Monitor intrare1114118
+# Monitor intrare1179654
+# Monitor iesire458759
+# Monitor intrare1245190
+# Monitor iesire524295
+# Monitor intrare1310726
+# Monitor intrare1376262
+# Monitor iesire589831
+# Monitor intrare1441798
+# Monitor intrare1507334
+# Monitor iesire655367
+# Monitor intrare1572870
+# Monitor intrare1638406
+# Monitor iesire720903
+# Monitor intrare1703942
+# Monitor intrare1769478
+# Monitor iesire786439
+# Monitor intrare1835014
+# Monitor iesire851975
+# Monitor intrare1900550
+# Monitor intrare1966086
+# Monitor iesire917511
+# Monitor intrare2031622
+# Monitor intrare2097158
+# Monitor iesire983047
+# Monitor intrare2162694
+# Monitor intrare2228230
+# Monitor intrare2293766
+# Monitor intrare2359302
+# Monitor iesire1048583
+# Monitor intrare2424838
+# Monitor intrare2490374
+# Monitor iesire1114119
+# Monitor intrare2555910
+# Monitor intrare2621446
+# Monitor iesire1179655
+# Monitor intrare2686982
+# Monitor intrare2752518
+# Monitor iesire1245191
+# Monitor intrare2818054
+# Monitor intrare2883590
+# Monitor intrare2949126
+# Monitor intrare3014662
+# Monitor iesire1310727
+# Monitor intrare3080198
+# Monitor intrare3145734
+# Monitor iesire1376263
+# Monitor intrare3211270
+# Monitor intrare3276806
+# Monitor intrare3342342
+# Monitor intrare3407878
+# Monitor intrare3473414
+# Monitor intrare3538950
+# Monitor intrare3604486
+# Monitor intrare3670022
+# Monitor intrare3735558
+# Monitor iesire1441799
+# Monitor intrare3801094
+# Monitor intrare3866630
+# Monitor iesire1507335
+# Monitor intrare3932166
+# Monitor intrare3997702
+# Monitor intrare4063238
+# Monitor intrare4128774
+# Monitor iesire1572871
+# Monitor intrare4194310
+# Monitor iesire1638407
+# Monitor intrare4259846
+# Monitor intrare4325382
+# Monitor iesire1703943
+# Monitor intrare4390918
+# Monitor intrare4456454
+# Monitor iesire1769479
+# Monitor intrare4521990
+# Monitor intrare4587526
+# Monitor iesire1835015
+# Monitor intrare4653062
+# Monitor intrare4718598
+# Monitor iesire1900551
+# Monitor intrare4784134
+# Monitor iesire1966087
+# Monitor intrare4849670
+# Monitor intrare4915206
+# Monitor iesire2031623
+# Monitor intrare4980742
+# Monitor intrare5046278
+# Monitor iesire2097159
+# Monitor intrare5111814
+# Monitor intrare5177350
+# Monitor intrare5242886
+# Monitor intrare5308422
+# Monitor iesire2162695
+# Monitor intrare5373958
+# Monitor intrare5439494
+# Monitor iesire2228231
+# Monitor intrare5505030
+# Monitor intrare5570566
+# Monitor iesire2293767
+# Monitor intrare5636102
+# Monitor intrare5701638
+# Monitor iesire2359303
+# Monitor intrare5767174
+# Monitor intrare5832710
+# Monitor intrare5898246
+# Monitor intrare5963782
+# Monitor iesire2424839
+# Monitor intrare6029318
+# Monitor intrare6094854
+# Monitor iesire2490375
+# Monitor intrare6160390
+# Monitor intrare6225926
+# Monitor intrare6291462
+# Monitor intrare6356998
+# Monitor intrare6422534
+# Monitor intrare6488070
+# Monitor intrare6553606
+# Monitor intrare6619142
+# Monitor intrare6684678
+# Monitor iesire2555911
+# Monitor intrare6750214
+# Monitor intrare6815750
+# Monitor iesire2621447
+# Monitor intrare6881286
+# Monitor intrare6946822
+# Monitor intrare7012358
+# Monitor intrare7077894
+# Monitor iesire2686983
+# Monitor intrare7143430
+# Monitor iesire2752519
+# Monitor intrare7208966
+# Monitor intrare7274502
+# Monitor iesire2818055
+# Monitor intrare7340038
+# Monitor intrare7405574
+# Monitor iesire2883591
+# Monitor intrare7471110
+# Monitor intrare7536646
+# Monitor iesire2949127
+# Monitor intrare7602182
+# Monitor intrare7667718
+# Monitor iesire3014663
+# Monitor intrare7733254
+# Monitor iesire3080199
+# Monitor intrare7798790
+# Monitor intrare7864326
+# Monitor iesire3145735
+# Monitor intrare7929862
+# Monitor intrare7995398
+# Monitor iesire3211271
+# Monitor intrare8060934
+# Monitor intrare8126470
+# Monitor intrare8192006
+# Monitor intrare8257542
+# Monitor iesire3276807
+# Monitor intrare8323078
+# Monitor intrare8388614
+# Monitor iesire3342343
+# Monitor intrare8454150
+# Monitor intrare8519686
+# Monitor iesire3407879
+# Monitor intrare8585222
+# Monitor intrare8650758
+# Monitor iesire3473415
+# Monitor intrare8716294
+# Monitor intrare8781830
+# Monitor intrare8847366
+# Monitor intrare8912902
+# Monitor iesire3538951
+# Monitor intrare8978438
+# Monitor intrare9043974
+# Monitor iesire3604487
+# Monitor intrare9109510
+# Monitor intrare9175046
+# Monitor intrare9240582
+# Monitor intrare9306118
+# Monitor intrare9371654
+# Monitor intrare9437190
+# Monitor intrare9502726
+# Monitor intrare9568262
+# Monitor intrare9633798
+# Monitor iesire3670023
+# Monitor intrare9699334
+# Monitor intrare9764870
+# Monitor iesire3735559
+# Monitor intrare9830406
+# Monitor intrare9895942
+# Monitor intrare9961478
+# Monitor intrare10027014
+# Monitor iesire3801095
+# Monitor intrare10092550
+# Monitor iesire3866631
+# Monitor intrare10158086
+# Monitor intrare10223622
+# Monitor iesire3932167
+# Monitor intrare10289158
+# Monitor intrare10354694
+# Monitor iesire3997703
+# Monitor intrare10420230
+# Monitor intrare10485766
+# Monitor iesire4063239
+# Monitor intrare10551302
+# Monitor intrare10616838
+# Monitor iesire4128775
+# Monitor intrare10682374
+# Monitor iesire4194311
+# Monitor intrare10747910
+# Monitor intrare10813446
+# Monitor iesire4259847
+# Monitor intrare10878982
+# Monitor intrare10944518
+# Monitor iesire4325383
+# Monitor intrare11010054
+# Monitor intrare11075590
+# Monitor intrare11141126
+# Monitor intrare11206662
+# Monitor iesire4390919
+# Monitor intrare11272198
+# Monitor intrare11337734
+# Monitor iesire4456455
+# Monitor intrare11403270
+# Monitor intrare11468806
+# Monitor iesire4521991
+# Monitor intrare11534342
+# Monitor intrare11599878
+# Monitor iesire4587527
+# Monitor intrare11665414
+# Monitor intrare11730950
+# Monitor intrare11796486
+# Monitor intrare11862022
+# Monitor iesire4653063
+# Monitor intrare11927558
+# Monitor intrare11993094
+# Monitor iesire4718599
+# Monitor intrare12058630
+# Monitor intrare12124166
+# Monitor intrare12189702
+# Monitor intrare12255238
+# Monitor intrare12320774
+# Monitor intrare12386310
+# Monitor intrare12451846
+# Monitor intrare12517382
+# Monitor intrare12582918
+# Monitor iesire4784135
+# Monitor intrare12648454
+# Monitor intrare12713990
+# Monitor iesire4849671
+# Monitor intrare12779526
+# Monitor intrare12845062
+# Monitor intrare12910598
+# Monitor intrare12976134
+# Monitor iesire4915207
+# Monitor intrare13041670
+# Monitor iesire4980743
+# Monitor intrare13107206
+# Monitor intrare13172742
+# Monitor iesire5046279
+# Break key hit 
+# Simulation stop requested.
+# Simulation Breakpoint: Simulation stop requested.
+# MACRO ./compilare.do PAUSED at line 16
+do compilare.do
+# ** Warning: (vlib-34) Library already exists at "./".
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling interface int_in
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling interface int_out
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package pkg_compilare
+# ** Error: monitor_output.sv(34): near "final": syntax error, unexpected final, expecting IDENTIFIER or TYPE_IDENTIFIER or '='
+# ** Error: monitor_output.sv(36): near "final": syntax error, unexpected final
+# ** Error: monitor_output.sv(38): near "final": syntax error, unexpected final
+# ** Error: monitor_output.sv(40): near "final": syntax error, unexpected final
+# ** Error: monitor_output.sv(42): near "final": syntax error, unexpected final
+# ** Error: monitor_output.sv(45): near "final": syntax error, unexpected final
+# ** Error: monitor_output.sv(47): near "final": syntax error, unexpected final
+# ** Error: /opt/altera/13.0sp1/modelsim_ase/linux/vlog failed.
+# Error in macro ./compilare.do line 8
+# /opt/altera/13.0sp1/modelsim_ase/linux/vlog failed.
+#     while executing
+# "vlog -sv -mfcu -work lab_work pkg_compilare.sv"
+do compilare.do
+# ** Warning: (vlib-34) Library already exists at "./".
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling interface int_in
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling interface int_out
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package pkg_compilare
+# ** Error: monitor_output.sv(34): near "final": syntax error, unexpected final, expecting IDENTIFIER or TYPE_IDENTIFIER or '='
+# ** Error: monitor_output.sv(36): near "final": syntax error, unexpected final
+# ** Error: monitor_output.sv(38): near "final": syntax error, unexpected final
+# ** Error: monitor_output.sv(40): near "final": syntax error, unexpected final
+# ** Error: monitor_output.sv(42): near "final": syntax error, unexpected final
+# ** Error: monitor_output.sv(45): near "final": syntax error, unexpected final
+# ** Error: monitor_output.sv(47): near "final": syntax error, unexpected final
+# ** Error: /opt/altera/13.0sp1/modelsim_ase/linux/vlog failed.
+# Error in macro ./compilare.do line 8
+# /opt/altera/13.0sp1/modelsim_ase/linux/vlog failed.
+#     while executing
+# "vlog -sv -mfcu -work lab_work pkg_compilare.sv"
+do compilare.do
+# ** Warning: (vlib-34) Library already exists at "./".
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling interface int_in
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling interface int_out
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package pkg_compilare
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package test_sv_unit
+# -- Importing package pkg_compilare
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	top_tb
+# vsim -novopt lab_work.top_tb 
+# Loading sv_std.std
+# Loading lab_work.top_tb
+# Loading lab_work.int_out
+# Loading lab_work.int_in
+# Loading lab_work.top
+# Loading lab_work.controller
+# Loading lab_work.primary_clock
+# Loading lab_work.smart_clock
+# Loading lab_work.decoder
+# Loading lab_work.pkg_compilare
+# Loading lab_work.test_sv_unit
+# Loading lab_work.test
+# Monitor intrare65542
+# Monitor iesire65543
+# Cifra ERONATA
+# Monitor intrare131078
+# Monitor intrare196614
+# Monitor iesire131079
+# Cifra ERONATA
+# Monitor intrare262150
+# Monitor intrare327686
+# Monitor iesire196615
+# Cifra ERONATA
+# Monitor intrare393222
+# Monitor intrare458758
+# Monitor iesire262151
+# Cifra ERONATA
+# Monitor intrare524294
+# Monitor intrare589830
+# Monitor intrare655366
+# Monitor intrare720902
+# Monitor intrare786438
+# Monitor iesire327687
+# Cifra ERONATA
+# Monitor intrare851974
+# Monitor intrare917510
+# Monitor iesire393223
+# Cifra ERONATA
+# Monitor intrare983046
+# Monitor intrare1048582
+# Monitor intrare1114118
+# Monitor intrare1179654
+# Monitor iesire458759
+# Cifra ERONATA
+# Monitor intrare1245190
+# Monitor iesire524295
+# Cifra ERONATA
+# Monitor intrare1310726
+# Monitor intrare1376262
+# Monitor iesire589831
+# Cifra ERONATA
+# Monitor intrare1441798
+# Monitor intrare1507334
+# Monitor iesire655367
+# Cifra ERONATA
+# Monitor intrare1572870
+# Monitor intrare1638406
+# Monitor iesire720903
+# Cifra ERONATA
+# Monitor intrare1703942
+# Monitor intrare1769478
+# Monitor iesire786439
+# Cifra ERONATA
+# Monitor intrare1835014
+# Monitor iesire851975
+# Cifra ERONATA
+# Break key hit 
+# Simulation stop requested.
+# Simulation Breakpoint: Simulation stop requested.
+# MACRO ./compilare.do PAUSED at line 16

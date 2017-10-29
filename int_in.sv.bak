@@ -1,0 +1,6 @@
+interface int_in;
+  
+  bit increment, reset, startstop, [1:0] digit_i, [3:0] value, load;
+
+    
+endinterface

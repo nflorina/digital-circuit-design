@@ -1,0 +1,5 @@
+package pkg_compilare;
+  include "command.sv";
+  include "generator.sv";
+  include "driver.sv";
+endpackage
