@@ -1,8 +1,8 @@
 library verilog;
 use verilog.vl_types.all;
-entity count is
+entity decoder is
     port(
-        clk_i           : in     vl_logic;
-        count_o         : out    vl_logic_vector(31 downto 0)
+        intrare_i       : in     vl_logic_vector(3 downto 0);
+        iesire_o        : out    vl_logic_vector(6 downto 0)
     );
-end count;
+end decoder;
